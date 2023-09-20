@@ -86,3 +86,31 @@ HISTORY:
    34  history
 
 ```
+
+
+tomcat installation 
+
+```
+ hostnamectl set-hostname tomcat
+    3  bash
+    4  clear
+    5  cd /opt
+    6  ls
+    7  yum update -y
+    8  yum install wget -y
+    9  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.80/bin/apache-tomcat-9.0.80.tar.gz
+   10  ls
+   11  tar -xvzf apache-tomcat-9.0.80.tar.gz
+   12  ls
+   13  cd apache-tomcat-9.0.80
+   14  ls
+   15  yum install java-11openjdk
+   16  java v-version
+   17  java -version
+   18  yum install fontconfig java-11-openjdk
+   19  ls
+   20  cd bin/
+   21  ls
+   22  ./startup.sh
+
+```
